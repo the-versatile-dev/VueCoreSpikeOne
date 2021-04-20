@@ -1,6 +1,7 @@
 module.exports = {
     outputDir: './wwwroot/dist',
     filenameHashing: false,
+
     configureWebpack: {
     optimization: {
         splitChunks: false
@@ -11,4 +12,8 @@ module.exports = {
         }
     }
 },
+
+    transpileDependencies: [
+      'vuetify'
+    ]
 }
