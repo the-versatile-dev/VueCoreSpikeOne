@@ -8,7 +8,7 @@
             <table v-if="users.length > 0" class="table table-striped table-bordered">
                 <thead>
                     <tr>
-                        <td>Name 44</td>
+                        <td>Name </td>
                         <td>Email12</td>
                         <td>Phone</td>
                         <td>Website</td>
