@@ -5,14 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="src\components\NewFolder\**" />
-    <Content Remove="src\components\NewFolder\**" />
-    <EmbeddedResource Remove="src\components\NewFolder\**" />
-    <None Remove="src\components\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="src\components\Photos\" />
+    <Folder Include="src\components\admin\" />
   </ItemGroup>
 
 </Project>
